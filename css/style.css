@@ -9,6 +9,16 @@ h1,p,div{
 	
   }
   
+  .xp{
+	  
+    font-size: 11px;
+    padding-left: 3px;
+    margin-left: 6px;
+    background: bisque;
+    border-radius: 6px;
+    font-weight: 900;
+  }
+  
   .works{
 	  text-align:center;
   }
