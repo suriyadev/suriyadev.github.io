@@ -20,7 +20,7 @@
   
   <!-- Content -->
 	  <div class="col-md-4 name">
-	   <h1 style="text-align:center">Suriya Dev/></h1>
+	   <h1 style="text-align:center">Suriya <span id="devtxt" style="color:#ef1c3c"></span></h1>
 		   <center>
 			   <div>
 				   <h5 style="color:#DBDADA;">Suriya Prakash</h5>
@@ -77,12 +77,20 @@
 
 
   
-  
-  
-  
-  
-  
-  
+   <script>
+var i = 0;
+var txt = 'Dev/>';
+var speed = 50;
 
+function typeWriter() {
+  
+  if (i < txt.length) {
+    document.getElementById("devtxt").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+   
 </body>
 </html>
