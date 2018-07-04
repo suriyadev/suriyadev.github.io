@@ -1,0 +1,33 @@
+h1,p,div{ 
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+
+  
+  } 
+  
+  .work-link img{
+    width: 77px;
+	
+  }
+  
+  .works{
+	  text-align:center;
+  }
+  
+  a.work-link{
+	   display:inherit!important;
+  }
+  .container {
+    height : 900px;
+  }
+  .skill-tag {
+    padding: 2px 7px;
+    margin: 0 1px 0 0;
+    border-width: 1px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background: #111;
+    color: white;
+    border-radius: 6px;
+  }
+  .space-s{
+    height:10px;
+  }
